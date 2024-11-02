@@ -7,6 +7,8 @@ Welcome to our team repository, where we document our journey through the Artifi
 This UBA specialization provides an in-depth exploration into AI methodologies, from foundational principles to cutting-edge techniques. Key topics include machine learning, neural networks, deep learning, natural language processing, and computer vision. As AI reshapes industries worldwide, this program emphasizes both the theoretical foundations and practical implementations, ensuring graduates are ready to innovate responsibly and effectively.
 
 ## Courses
+This year-long program concludes with a capstone project, where students solve a real-world problem for a client using AI concepts from the specialization.
+
 - Introduction to Artificial Intelligence
 - Probability and Statistics for Artificial Intelligence
 - Mathematical Analysis for Artificial Intelligence
@@ -18,10 +20,10 @@ This UBA specialization provides an in-depth exploration into AI methodologies, 
 - Machine Learning II
 - Natural Language Processing
 - Computer Vision II
-- Wprkshop Capstone Project I
+- Workshop Capstone Project I
 - Elective Course 1
 - Elective Course 2
-- Wprkshop Capstone Project II
+- Workshop Capstone Project II
 - Capstone Project
 
 ## What You’ll Find Here 📂💻
