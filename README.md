@@ -6,6 +6,24 @@ Welcome to our team repository, where we document our journey through the Artifi
 ## About the AI Specialization 🧠🔍
 This UBA specialization provides an in-depth exploration into AI methodologies, from foundational principles to cutting-edge techniques. Key topics include machine learning, neural networks, deep learning, natural language processing, and computer vision. As AI reshapes industries worldwide, this program emphasizes both the theoretical foundations and practical implementations, ensuring graduates are ready to innovate responsibly and effectively.
 
+## Courses
+- Introduction to Artificial Intelligence
+- Probability and Statistics for Artificial Intelligence
+- Mathematical Analysis for Artificial Intelligence
+- Project Management
+- Data Analysis
+- Machine Learning I
+- Deep Learning
+- Computer Vision I
+- Machine Learning II
+- Natural Language Processing
+- Computer Vision II
+- Wprkshop Capstone Project I
+- Elective Course 1
+- Elective Course 2
+- Wprkshop Capstone Project II
+- Capstone Project
+
 ## What You’ll Find Here 📂💻
 This repository will serve as an evolving portfolio of our projects, assignments, and experiments, including:
 - **Machine Learning Models** - Building and tuning algorithms for various real-world applications.
