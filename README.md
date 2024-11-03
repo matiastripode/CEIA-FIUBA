@@ -27,12 +27,6 @@ This year-long program concludes with a capstone project, where students solve a
 - Capstone Project
 
 ## What You’ll Find Here 📂💻
-This repository will serve as an evolving portfolio of our projects, assignments, and experiments, including:
-- **Machine Learning Models** - Building and tuning algorithms for various real-world applications.
-- **Neural Network Architectures** - Experimenting with architectures for image recognition, NLP, and beyond.
-- **Data Analysis & Preprocessing** - Key steps in preparing and understanding data for AI solutions.
-- **Research Insights** - Documented insights and learnings from academic research and projects.
-
 We hope this repository serves as a resource for fellow learners, developers, and anyone interested in the transformative potential of AI. Let’s push the boundaries of what AI can achieve!
 
 ---
@@ -45,11 +39,5 @@ Bienvenido a este repositorio, donde documentamos nuestro recorrido por la Espec
 La especialización de UBA ofrece una exploración profunda de metodologías de IA, desde los principios fundamentales hasta técnicas de vanguardia. Entre los temas clave se incluyen aprendizaje automático, redes neuronales, aprendizaje profundo, procesamiento de lenguaje natural y visión por computadora. A medida que la IA transforma industrias en todo el mundo, este programa enfatiza tanto los fundamentos teóricos como las implementaciones prácticas, asegurando que los egresados estén preparados para innovar de manera responsable y efectiva.
 
 ## Contenido del Repositorio 📂💻
-Este repositorio funcionará como un portafolio en evolución de mis proyectos, tareas y experimentos, incluyendo:
-- **Modelos de Aprendizaje Automático** - Creación y ajuste de algoritmos aplicados a diversos contextos reales.
-- **Arquitecturas de Redes Neuronales** - Experimentación con arquitecturas para reconocimiento de imágenes, PLN y más.
-- **Análisis y Preprocesamiento de Datos** - Pasos clave para preparar y entender los datos en soluciones de IA.
-- **Perspectivas de Investigación** - Documentación de conocimientos y aprendizajes a partir de investigación académica y proyectos.
-
-Esperamos que este repositorio sea un recurso para estudiantes, desarrolladores y cualquier persona interesada en el potencial transformador de la IA. ¡Avancemos juntos los límites de lo que la IA puede lograr!
-
+Este repositorio funcionará como un portafolio en evolución de mis proyectos, tareas y experimentos.
+Esperamos que este repositorio sea un recurso para estudiantes, desarrolladores y cualquier persona interesada en el potencial transformador de la IA.
