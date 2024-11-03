@@ -2,7 +2,7 @@ from collections import deque
 import tree_hanoi
 import hanoi_states
 
-# TP_1 - Ejercicio 4) Busqueda en profundidad con conjunto de visitados
+# TP_1 - Ejercicio 4) Busqueda en Profundidad Iterativa con conjunto de visitados
 def limited_depth_first_tree_search(problem: hanoi_states.ProblemHanoi, max_depth: int, display: bool = False):
     """
     Realiza una búsqueda en profundidad iterativa con límite de profundidad para encontrar una solución a un problema de Hanoi.
@@ -42,7 +42,7 @@ def limited_depth_first_tree_search(problem: hanoi_states.ProblemHanoi, max_dept
 
     return None  # Retorna None si no encuentra solución
 
-# TP_1 - Ejercicio 4) Busqueda en profundidad con conjunto de visitados
+# TP_1 - Ejercicio 4) Busqueda en Profundidad con conjunto de visitados
 def depth_first_tree_search(problem: hanoi_states.ProblemHanoi, display: bool = False):
     """
     Realiza una búsqueda en profundidad para encontrar una solución a un problema de Hanoi.
