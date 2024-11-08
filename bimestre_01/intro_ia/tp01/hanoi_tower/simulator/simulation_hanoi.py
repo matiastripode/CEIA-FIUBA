@@ -44,8 +44,6 @@ def initialize_pygame():
 # Main game loop
 def main():
     # Initialize Pygame
-    delay_seconds = int(input("Ingrese un delay para comenzar "))
-    time.sleep(delay_seconds)
     screen = initialize_pygame()
     clock = pygame.time.Clock()
     pygame.display.set_caption("Hanoi's tower simulation")

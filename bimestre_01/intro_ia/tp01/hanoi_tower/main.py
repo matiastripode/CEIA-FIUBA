@@ -6,7 +6,7 @@ from search import (
     breadth_first_tree_search,
     breadth_first_graph_search,
     depth_first_tree_search,
-    limited_depth_first_tree_search,
+    limited_depth_first_tree_search
 )
 
 def main():
@@ -24,13 +24,13 @@ def main():
     print("Seleccione el algoritmo para resolver el problema de las Torres de Hanoi:")
     print("1. Búsqueda en anchura (sin visitados) <- Catedra IIA")
     print("2. Búsqueda en anchura (con visitados) <- Catedra IIA")
-    print("3. Búsqueda en profundidad (con visitados) <- Equipo Androides")
-    print("4. Búsqueda en profundidad limitada (con visitados) <- Equipo Androides")
+    print("3. Búsqueda en profundidad (con visitados) <- Equipo")
+    print("4. Búsqueda en profundidad limitada (con visitados) <- Equipo")
 
-    choice = input("Ingrese el número de su elección: ")
+    choice = input("Seleccione el algoritmo: ")
     num_limit = 0
     if choice == "4":
-        num_limit = int(input("Ingrese la restriccion de limite: "))    
+        num_limit = int(input("Selecciono DFS limitada - ingrese la restriccion de limite: "))    
     # Solicitar el número de ejecuciones
     num_executions = int(input("Ingrese el número de ejecuciones: "))
 
@@ -46,7 +46,7 @@ def main():
 
         # Selecciona y ejecuta el algoritmo según la elección del usuario
         if choice == "1":
-            last_node = breadth_first_tree_search(problem_hanoi, display=True)
+            last_node = breadth_first_tree_search(problem_hanoi)
         elif choice == "2":
             last_node = breadth_first_graph_search(problem_hanoi, display=True)
         elif choice == "3":

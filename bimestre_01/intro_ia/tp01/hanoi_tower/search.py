@@ -1,29 +1,16 @@
 from collections import deque
 import tree_hanoi
 import hanoi_states
+import copy
 
 # TP_1 - Ejercicio 4) Busqueda en Profundidad Iterativa con conjunto de visitados
 def limited_depth_first_tree_search(problem: hanoi_states.ProblemHanoi, max_depth: int, display: bool = False):
-    """
-    Realiza una búsqueda en profundidad iterativa con límite de profundidad para encontrar una solución a un problema de Hanoi.
-
-    Parameters:
-        problem (hanoi_states.ProblemHanoi): El problema de la Torre de Hanoi a resolver.
-        max_depth (int): La profundidad máxima a explorar.
-        display (bool): Si es True, muestra estadísticas de búsqueda.
-
-    Returns:
-        tree_hanoi.NodeHanoi: El nodo que contiene la solución encontrada, o None si no se encuentra.
-    """
+    problem_copy = copy.deepcopy(problem)
     for curr_depth in range(max_depth):
-        explored = set()  # Set para estados visitados
-        frontier = [(tree_hanoi.NodeHanoi(problem.initial), 0)]  # La pila incluye cada nodo y su profundidad
+        explored = set()  # Set para estados visitados <<==== Chequear VISITADOS !!!
+        frontier = [(tree_hanoi.NodeHanoi(problem.initial), 0)]         
         while frontier:
             node, depth = frontier.pop()  # Extrae el nodo más reciente y su profundidad
-            print("curr_depth: ", curr_depth, "depth:", depth)
-            if depth > curr_depth:
-                break
-
             if node.state in explored:
                 continue  # Salta si ya fue explorado
 
@@ -35,11 +22,11 @@ def limited_depth_first_tree_search(problem: hanoi_states.ProblemHanoi, max_dept
                 return node
 
             # Expande el nodo si la profundidad actual es menor que el máximo permitido
-            if depth < max_depth:
-                # Añade cada hijo con una profundidad aumentada en 1
+            # Añade cada hijo con una profundidad aumentada en 1
+            if depth < curr_depth:
                 frontier.extend((child, depth + 1) for child in node.expand(problem)
-                                if child.state not in explored and (child, depth + 1) not in frontier)
-
+                            if child.state not in explored and (child, depth) not in frontier)
+        problem = copy.deepcopy(problem_copy)
     return None  # Retorna None si no encuentra solución
 
 # TP_1 - Ejercicio 4) Busqueda en Profundidad con conjunto de visitados
