@@ -6,7 +6,8 @@ from search import (
     breadth_first_tree_search,
     breadth_first_graph_search,
     depth_first_tree_search,
-    limited_depth_first_tree_search
+    limited_depth_first_tree_search,
+    a_star_search
 )
 
 def main():
@@ -26,6 +27,7 @@ def main():
     print("2. Búsqueda en anchura (con visitados) <- Catedra IIA")
     print("3. Búsqueda en profundidad (con visitados) <- Equipo")
     print("4. Búsqueda en profundidad limitada (con visitados) <- Equipo")
+    print("5. A* con colas de prioridad en coste heurística <- Equipo")
 
     choice = input("Seleccione el algoritmo: ")
     num_limit = 0
@@ -53,6 +55,8 @@ def main():
             last_node = depth_first_tree_search(problem_hanoi, display=True)
         elif choice == "4":
             last_node = limited_depth_first_tree_search(problem_hanoi, max_depth=num_limit, display=True)
+        elif choice == "5":
+            last_node = a_star_search(problem_hanoi, display=True)
         else:
             print("Opción no válida.")
             return
